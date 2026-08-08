@@ -1,0 +1,76 @@
+Q1 . Frontend vs. Backend vs. Full-Stack
+Frontend: Visual UI/UX layout user sees (Example: Amazon search bar & buttons).
+
+Backend: Server logic, database, & security (Example: Amazon payment processing).
+
+Full-Stack: Both client and server-side development combined.
+
+
+Q2. Client-Server Model
+Client (Browser) --[HTTP Request]--> Server --[HTTP Response (HTML/CSS)]--> Client
+
+
+Q3. Web Page Request Lifecycle
+DNS Lookup: Resolves domain name to IP address.
+
+TCP/TLS Handshake: Establishes secure connection.
+
+HTTP Request: Browser asks server for files.
+
+Server Response: Returns status code and HTML.
+
+DOM/CSSOM Construction: Parses HTML structure and CSS styles.
+
+Render & Paint: Displays pixels on screen.
+
+
+Q4. Environment Setup Tools
+VS Code: Source code editor.
+
+Chrome/Firefox: Browser to run/debug code via DevTools.
+
+Git & GitHub: Version control and remote code hosting.
+
+Node.js/npm: JS runtime engine and package manager.
+
+
+Q5. Web Server
+Software/hardware that serves requested web content over HTTP/HTTPS.
+
+Examples: Nginx, Apache, IIS, Caddy.
+
+
+Q6. Developer Roles
+Frontend Dev: Builds user interfaces and client interactions.
+
+Backend Dev: Writes server APIs, application logic, and security.
+
+Database Administrator: Manages data integrity, schemas, and query speed.
+
+
+Q7. VS Code SetupInstall: Download from code.visualstudio.com.Key Extensions: Live Server, Prettier, HTML/CSS Snippets.Auto-Save: Settings $\rightarrow$ enable Format On Save.
+
+
+Q8. Static vs. Dynamic
+Static: Fixed HTML files served identically to everyone (Example: Personal portfolio).
+
+Dynamic: Server builds customized content on the fly using a database (Example: Twitter feed).
+
+
+Q9. Browsers & Rendering Engines
+Chrome: Blink engine (Fast, standard-setting)
+
+Edge: Blink engine (Microsoft integration)
+
+Brave: Blink engine (Privacy focused)
+
+Firefox: Gecko engine (Independent, multi-threaded)
+
+Safari: WebKit engine (Battery/hardware optimized)
+
+
+Q10. Web Architecture Flow
+Client (Browser) --[HTTP Request/API]--> Server --[SQL/NoSQL Query]--> Database
+Client <--[JSON Data/UI Response]-- Server <--[Data Payload]-- Database
+
+
