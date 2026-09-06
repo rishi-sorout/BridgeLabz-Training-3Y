@@ -1,0 +1,63 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+/* Flexbox */
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+    padding: 30px;
+}
+
+.card {
+    width: 280px;
+    padding: 30px;
+
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+
+    transition: transform 0.3s ease;
+
+    animation: fadeIn 1s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Middle card */
+.featured {
+    transform: scale(1.08);
+    background-color: lightblue;
+}
+
+.featured:hover {
+    transform: scale(1.08) translateY(-10px);
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
