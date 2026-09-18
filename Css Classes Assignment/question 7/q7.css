@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+}
+
+.ui-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 450px;
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px #bbb;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+input:focus,
+select:focus {
+    outline: 3px solid #b8daff;
+    border-color: #007bff;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+.actions button {
+    flex: 1;
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .search {
+        flex-direction: column;
+    }
+}
