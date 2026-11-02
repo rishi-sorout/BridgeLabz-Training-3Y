@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Step Form</title>
+</head>
+<body>
+
+    <h1>Multi-Step Registration Form</h1>
+
+    <form id="multiStepForm">
+
+        <div class="step">
+            <h3>Step 1: Name</h3>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name">
+        </div>
+
+        <div class="step" hidden>
+            <h3>Step 2: Email</h3>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email">
+        </div>
+
+        <div class="step" hidden>
+            <h3>Step 3: Password</h3>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password">
+        </div>
+
+        <br>
+
+        <button type="button" id="backButton">Back</button>
+
+        <button type="button" id="nextButton">Next</button>
+
+    </form>
+
+    <div id="summary"></div>
+
+    <script src="multiStepForm.js"></script>
+
+</body>
+</html>

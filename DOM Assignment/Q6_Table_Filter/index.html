@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table Filter</title>
+</head>
+<body>
+
+    <h1>Student Records</h1>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search students...">
+
+    <br><br>
+
+    <table border="1" cellpadding="10">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>CGPA</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentTable">
+
+            <tr>
+                <td>Rishi</td>
+                <td>CSE</td>
+                <td>8.5</td>
+            </tr>
+
+            <tr>
+                <td>Aman</td>
+                <td>IT</td>
+                <td>8.0</td>
+            </tr>
+
+            <tr>
+                <td>Rahul</td>
+                <td>ECE</td>
+                <td>7.5</td>
+            </tr>
+
+            <tr>
+                <td>Vikas</td>
+                <td>CSE</td>
+                <td>9.0</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <p id="noResults" hidden>No results found</p>
+
+    <script src="liveTableFilter.js"></script>
+
+</body>
+</html>
